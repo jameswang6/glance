@@ -1,7 +1,7 @@
 {
     "context_is_admin":  "role:admin",
     "default": "",
-
+    "image_uploader":"role:admin or role:image_uploader"
     "add_image": "",
     "delete_image": "",
     "get_image": "",
@@ -11,7 +11,7 @@
     "copy_from": "",
 
     "download_image": "",
-    "upload_image": "",
+    "upload_image": "rule:image_uploader",
 
     "delete_image_location": "",
     "get_image_location": "",
